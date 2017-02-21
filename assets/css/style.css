@@ -1,0 +1,138 @@
+@import url('../font/font-source-pro.css');
+body {background: #dadfe5;font-family: SourceSansPro-Regular;color: #4d4d4d;/* width: 1050px; */margin: 0;font-size:12px;padding: 0;}
+main {
+    background: #fff;
+    width: 850px;
+    margin: auto;
+    /* height: 100%; */
+    margin-top: 70px;
+    /* padding-top: 20px; */
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+    border: 1px solid #b4b4b4;
+    margin-bottom: 50px;
+}
+div#ins-top {
+    padding: 16px 24px;
+    height: 27px;
+}
+#ins-top span {
+    float: right;
+    padding: 6px 0px;
+}
+.red { color:red;}
+#ins-top p {
+    margin: 0;
+    padding: 4px;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: SourceSansPro-regular;
+}
+.message {
+    color: #1c1c1c;
+    padding: 15px 0px;
+}
+
+.message p.title {font-weight:bolder;font-size: 14px;padding:0;margin:0;}
+.message p {font-family:SourceSansPro-regular; padding:0; margin:0;}
+.message.danger span, .message.black span, .message.yellow span,.message.success span {
+    font-size: 27px;
+    width: 42px;
+    float: left;
+    padding: 0 13px;
+    margin: 0;
+    text-align: center;
+    line-height: 32px;
+    height:40px;
+    font-family: SourceSansPro-Black;
+}
+.message.danger {
+    background: #ffa98e;
+}
+.message.black {
+    background: #eee;
+}
+.message.yellow {
+    background: #fff6b1;
+}
+.message.success {
+    background: #dfe6c1;
+}
+
+h1 {
+    font-family: SourceSansPro-extralight;
+    font-size: 37px;
+    padding: 14px 55px;
+    font-weight: normal;
+    margin: 0;
+}
+#content {
+    padding: 0 50px;
+    margin: 0;
+    text-align: justify;
+}
+div#footer {
+    height: 34px;
+    margin-top: 40px;
+    padding: 13px 13px 10px;
+    border-top: 1px solid #eee;
+}
+.button {
+    border-radius: 2px;
+    background: #eee;
+    padding: 7px 22px;
+    float: right;
+    width: 100px;
+    border: none;
+    font-weight: normal;
+}
+i {
+    color: #aa9d9d;
+}
+
+.button.bleu {
+    background: #26C6DA;
+    color: #fff;
+}
+td.inst-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    width: 140px;
+    vertical-align: top;
+}
+
+input {
+    border: 2px solid #ccc;
+    padding: 4px 15px;
+    color: #3b3a3a;
+    font-weight: 700;
+    font-family: SourceSansPro-Regular;
+    border-radius: 3px;
+    width: 100%;
+}
+td.inst-describe {
+    font-size: 12px;
+    color: #888;
+    width: 360px;
+    padding: 0 0 0 15px;
+}
+td.inst-input.Required > input {
+    border: rgba(244, 67, 54, 0.63) 2px solid;
+}
+td.inst-input {
+    font-size: 12px;
+    color: #888;
+    /* width: 210px; */
+    padding: 0 0 0 15px;
+}
+tr {
+    height: 36px;
+}
+td.inst-input input {
+    width: 200px;
+}
+td.inst-input p {
+    margin: 3px 0 10px;
+}
